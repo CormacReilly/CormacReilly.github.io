@@ -1,20 +1,80 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>👍</title>
-    <style>
-      body {
-        display: grid;
-        min-height: 100vh;
-        margin: 0;
-        place-items: center;
-        font-size: clamp(5rem, 20vw, 12rem);
-      }
-    </style>
-  </head>
-  <body>
-    <main aria-label="Thumbs up">👍</main>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cormac Reilly · Mechanical Engineer</title>
+  <meta name="description" content="Mechanical engineering student and ASU Intelligence Fellow working where hardware, software, and national security meet.">
+  <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c2410c'/%3E%3Ctext x='16' y='21' font-family='monospace' font-size='13' fill='white' text-anchor='middle'%3ECR%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body data-page="home">
+  <header class="site-header"></header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="label">Mechanical Engineering · Intelligence &amp; National Security</p>
+        <h1>Cormac Reilly</h1>
+        <p class="lede">Mechanical engineering student at Arizona State University and ASU Intelligence Fellow. I build and instrument real machines, write the software that makes sense of their data, and brief what it means.</p>
+        <ul class="chips">
+          <li class="accent">U.S. Citizen</li>
+          <li>ASU · B.S.E. 2028</li>
+          <li>Available June 2028</li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="projects.html">View projects</a>
+          <a class="btn" href="resume.html">Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="label">Selected work</p>
+            <h2>Featured projects</h2>
+          </div>
+          <a href="projects.html">All projects →</a>
+        </div>
+        <div class="card-grid" id="featured-grid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="label">What I bring</p>
+            <h2>Three disciplines, one approach</h2>
+          </div>
+        </div>
+        <div class="focus-grid">
+          <article class="focus reveal">
+            <span class="num">01</span>
+            <h3>Mechanical design &amp; fabrication</h3>
+            <p>SolidWorks and Onshape CAD, TIG &amp; MIG welding, milling, lathe, sheet metal, and composite layup.</p>
+          </article>
+          <article class="focus reveal">
+            <span class="num">02</span>
+            <h3>Instrumentation &amp; electronics</h3>
+            <p>CAN bus and OBD-II logging, sensor instrumentation, wiring harnesses, Arduino and embedded C, and multimeter and oscilloscope diagnostics.</p>
+          </article>
+          <article class="focus reveal">
+            <span class="num">03</span>
+            <h3>Intelligence analysis</h3>
+            <p>Structured analytic techniques, multi-source assessment writing, and oral briefing, developed through the ASU Intelligence Fellowship.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"></footer>
+</body>
 </html>
